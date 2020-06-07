@@ -6,6 +6,8 @@ version = "0.1.0"
 [deps]
 AttractorNetworksBase = "32aebfaa-1084-4881-a576-9addc3705ed5"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 [compat]
 julia = "1.4"
