@@ -59,4 +59,7 @@ end
 
 
 x0 = randn(n)
-t,xs = linear_dynamics(x0,M,10.0)
+t,xs = A.linear_dynamics(x0,M,10.0)
+A.run_network
+A.run_network_withnoise
+A.run_network_to_convergence  
